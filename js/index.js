@@ -4,6 +4,10 @@ export default class Problem {
         name:'zs',
         age:18
     }
+    status={
+        goods:'小王',
+        info:'小王烤羊腿'
+    }
     constructor() {
         this.getDate();
         // 给保存按钮绑定点击事件
