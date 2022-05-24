@@ -1,5 +1,9 @@
 
 export default class Problem {
+    defaultProps={
+        name:'zs',
+        age:18
+    }
     constructor() {
         this.getDate();
         // 给保存按钮绑定点击事件
