@@ -1,4 +1,5 @@
-class Problem {
+
+export default class Problem {
     constructor() {
         this.getDate();
         // 给保存按钮绑定点击事件
